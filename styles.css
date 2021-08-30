@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+body{
+    font-family:"Montserrat-thin",sans-serif ;
+}
+#title{
+    background-color: rgb(245, 18, 63);
+    color: #fff;
+}
+
+h1{
+    font-family: "Montserrat",sans-serif;    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-items{
+    padding: 0 18px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.pic{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    
+    padding: 4.5%;
+}
+
+h5{
+    font-weight: 1000;
+}
+.icon{
+    margin-bottom: 1.5rem;
+    color:rgb(245, 18, 63);
+}
+
+.icon:hover{
+    color: rgb(238, 60, 96);
+}
+
+#testimonials{
+    text-align: center;
+    font-weight: 1000;
+    font-family: "Montserrat-Bold",sans-serif;
+    background-color:rgb(245, 18, 63) ;
+    color: #fff;
+    
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+   background-color:rgb(245, 18, 63) ;
+   text-align: center;
+   padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#pricing{
+    padding: 100px;
+    font-family: "Montserrat-Bold",sans-serif;
+}
+
+.pricing-column{
+    padding: 2% 5%;
+    text-align: center;
+}
+
+#cta{
+    background-color: rgb(245, 18, 63);
+    text-align: center;
+    padding: 7% 15% ;
+    
+}
+.cta-heading{
+    font-family: "Montserrat",sans-serif;
+    font-size: 3rem;
+    
+    color:#fff ;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}  
+
+.social-icon{
+    margin: 20px 10px;
+}
+@media (max-width:1028px) {
+#title{
+    text-align: center;
+}    
+    
+.pic{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
